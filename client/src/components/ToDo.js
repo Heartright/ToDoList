@@ -25,8 +25,8 @@ export const ToDo = ({ toggleTodo, deleteTodo, todo }) => {
 const TodoItem = styled.div`
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   cursor: pointer;
-  align-items: center;
   margin: 10px auto;
   color: #fff;
   background: linear-gradient(
@@ -36,9 +36,11 @@ const TodoItem = styled.div`
   );
   padding: 10px;
   border-radius: 10px;
-  width: 63%;
+  width: 61%;
 `;
 
+
 const TodoText = styled.div`
+  word-break: break-all;
   text-decoration: ${(props) => (props.completed ? "line-through" : "none")};
 `;
