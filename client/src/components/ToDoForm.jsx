@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Button, Input } from '@material-ui/core';
 import { makeStyles } from "@material-ui/core";
-import styled from "styled-components";
 
 export const ToDoForm = ({ addTodo }) => {
   const classes = useStyles();

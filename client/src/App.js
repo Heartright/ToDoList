@@ -19,7 +19,7 @@ export const App = () => {
   const addTodo = async (todoInput) => {
     if (todoInput.trim()) {
       let newItem = {
-        task: todoInput
+        task: todoInput,
       };
       try {
         await axios.post("http://localhost:3010/todo/", newItem);

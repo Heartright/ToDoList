@@ -1,5 +1,4 @@
 # Todo list
-
 ## :clipboard: Функционал
 Приложение работает на запросах, все todo элементы хранятся в массе на сервере. 
 Можно добавить\выполнить\удалять задачи, ниже описаны детали работы приложения.
@@ -36,14 +35,3 @@
 <img src="https://raw.githubusercontent.com/Heartright/stack_icon/6dab1175d1a19e38473a987cb1818b1a2141a265/material-ui-logo.svg" width="80">
 &nbsp;&nbsp;
 <img src="https://raw.githubusercontent.com/Heartright/stack_icon/6dab1175d1a19e38473a987cb1818b1a2141a265/styled-components-logo.svg" width="65">
-
-
-
-
-
-
-
-
-
-
-
