@@ -14,12 +14,9 @@
 - `toggleTodo/deleteTodo` - эти методы либо удаляют существующий элемент, либо изменяют.
 
 ## :memo: Перед работой с проектом необходимо
-1. Создать react приложение через `npx create-react-app appname` запускать необходимо командой `npm start` перейдя в папку client в терминале
-2. Создать приложение nestjs `npm i -g @nestjs/cli` `nest new project-name` запустить можно `npm start dev:run` перейдя в папку server в терминале.
-3. Так же необходимо установить библиотеку axios `npm install axios` для работы с запросами в папку client как и все остальные библиотеки ниже.
-4. Для работы c элементами `npm install @mui/material` `npm install @material-ui/core` `npm install @mui/icons-material` и для работы со стилями `npm install --save styled-components`
+1. Для client необходимо установить зависимости `npm i` запускать необходимо через `npm start` перейдя в папку client в терминале
+2. Для server, так же необходимо установить зависимости `npm i` запустить можно через `npm start dev:run` перейдя в папку server в терминале.
 
- 
 ## :hammer_and_wrench: Стек 
  - React
  - TypeScript
